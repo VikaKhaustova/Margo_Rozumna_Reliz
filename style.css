@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(67.5deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(90deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(135deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(0deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%,rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%,rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%,rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%,rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%,rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%,rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%),linear-gradient(90deg, rgb(8, 8, 8),rgb(221, 221, 221)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
+}
+
+header{
+    padding-top: 300px;
+    background-image: url("folder/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #000000;
+    font-size: 45px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+main{
+    margin-top: 0;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info h1{
+font-size: 40px;
+
+}
+.info p{
+    font-size: 30px;
+}
+
+.info-text{
+    width: 60%;
+}
+
+.catalog h2{
+    font-size: 55px;
+    text-align: center;
+}
+
+.all-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.catalog-div{
+    width: 300px;
+    margin: 20px;
+}
+
+.catalog-div h3{
+    font-size: 35px;
+    height: 70px;
+}
+
+.catalog-text{
+    font-size: 30px;
+    height: 300px;
+}
+
+.sallary{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recall h2 {
+    text-align: center;
+    font-size: 55px;
+}
+
+.recall-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+
+.recall-div p {
+    width: 800px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recall-img {
+    width: 190px;
+    height: 190px;
+}
+
+.contacts h2{
+    text-align: center;
+    font-size: 55px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-div h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.contacts-div p{
+    font-size: 35px;
+}
+
+.contacts-row-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts-row-2{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+}
+.phone-number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.phone p {
+    font-size: 30px;
+}
+
+.footer-info{
+    float: right;
+    width: 220px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 70px;
+}
+
+.image-right{
+    width: 74px;
+    float: right;
+}
+
+.image-left{
+    width: 74px;
+    float: left;
+} 
